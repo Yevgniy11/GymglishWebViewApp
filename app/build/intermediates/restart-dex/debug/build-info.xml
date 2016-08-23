@@ -4,12 +4,12 @@
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="1396150457511106"
+    timestamp="2111858443804"
     token="5372877362064337113" >
 
     <task
         name="javac"
-        duration="574" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -21,13 +21,31 @@
         duration="0" />
 
     <artifact
-        location="C:\AndroidProjects\GymglishWebViewApp\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\AndroidProjects\GymglishWebViewApp\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="1396150457511106" >
+    <build timestamp="1224331312348" >
         <artifact
             location="C:\AndroidProjects\GymglishWebViewApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="1777985888756" >
+        <artifact
+            location="C:\AndroidProjects\GymglishWebViewApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="2027042926016" >
+        <artifact
+            location="C:\AndroidProjects\GymglishWebViewApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\AndroidProjects\GymglishWebViewApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="2111858443804" >
+        <artifact
+            location="C:\AndroidProjects\GymglishWebViewApp\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

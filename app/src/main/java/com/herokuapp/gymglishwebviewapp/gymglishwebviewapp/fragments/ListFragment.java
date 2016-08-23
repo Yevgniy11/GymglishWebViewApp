@@ -14,8 +14,8 @@ import com.herokuapp.gymglishwebviewapp.gymglishwebviewapp.listners.OnWebSiteCho
 
 
 public class ListFragment extends Fragment {
-    LayoutInflater inflater;
-    OnWebSiteChosen listener;
+    private LayoutInflater inflater;
+    private OnWebSiteChosen listener;
 
     public ListFragment() {
         // Required empty public constructor
@@ -38,5 +38,4 @@ public class ListFragment extends Fragment {
         websiteList.setAdapter(adapter);
         return view;
     }
-
 }

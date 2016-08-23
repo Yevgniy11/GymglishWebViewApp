@@ -24,6 +24,10 @@
         "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
+        "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_web_view.xml",
+        "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\src\\main\\res\\layout\\fragment_web_view.xml"
+    },
+    {
         "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
@@ -48,28 +52,28 @@
         "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -130,6 +134,10 @@
     {
         "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_blank.xml",
+        "source": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\src\\main\\res\\layout\\fragment_blank.xml"
     },
     {
         "merged": "C:\\AndroidProjects\\GymglishWebViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",

@@ -1,41 +1,48 @@
 package com.herokuapp.gymglishwebviewapp.gymglishwebviewapp;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.herokuapp.gymglishwebviewapp.gymglishwebviewapp.fragments.ListFragment;
 import com.herokuapp.gymglishwebviewapp.gymglishwebviewapp.fragments.LoginFragment;
+import com.herokuapp.gymglishwebviewapp.gymglishwebviewapp.fragments.WebViewFragment;
 import com.herokuapp.gymglishwebviewapp.gymglishwebviewapp.listners.OnSuccessfulLogin;
 import com.herokuapp.gymglishwebviewapp.gymglishwebviewapp.listners.OnWebSiteChosen;
 
 public class MainActivity extends AppCompatActivity implements OnSuccessfulLogin,OnWebSiteChosen {
 
+    private ListFragment listFragment;
+    private LoginFragment loginFrag;
+    private WebViewFragment webViewFragment;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        LoginFragment loginFrag = new LoginFragment();//create the login fragment
+        this.loginFrag = new LoginFragment();//create the login fragment
         loginFrag.setContext(this);
         loginFrag.setOnLoginListener(this);//if the login is correct this listener will open the website list frag
-        getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, loginFrag, null).commit();//display the fragment
+        FragmentManager supportFragmentManager = getSupportFragmentManager();
+        if(savedInstanceState==null)
+            supportFragmentManager.beginTransaction().add(R.id.fragment_container, loginFrag, "login").commit();//display the fragment
     }
 
     @Override
     public void OnSuccessfulLogin() {
-        ListFragment fragment = new ListFragment();
-        fragment.setInflater(getLayoutInflater(),this);
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,fragment).addToBackStack("login").commit();
+        this.listFragment = new ListFragment();
+        listFragment.setInflater(getLayoutInflater(),this);
+        FragmentManager supportFragmentManager = getSupportFragmentManager();
+        supportFragmentManager.beginTransaction().replace(R.id.fragment_container,listFragment,"webList").addToBackStack(null).commit();
     }
 
     @Override
     public void OnWebSiteChosen(String url) {
-        Uri uri = Uri.parse("http://" + url);
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
+        this.webViewFragment = new WebViewFragment();
+        this.webViewFragment.setUrl(url);
+        FragmentManager supportFragmentManager = getSupportFragmentManager();
+        supportFragmentManager.beginTransaction().replace(R.id.fragment_container,this.webViewFragment,"webView").addToBackStack(null).commit();
     }
 
     public void OnScreenClick(View view) {

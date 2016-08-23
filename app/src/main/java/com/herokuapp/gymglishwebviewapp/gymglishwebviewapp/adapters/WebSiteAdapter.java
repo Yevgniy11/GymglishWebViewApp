@@ -20,7 +20,7 @@ public class WebSiteAdapter extends BaseAdapter implements View.OnClickListener 
     private LayoutInflater inflater;
     private TextView tvWebsite;
     private OnWebSiteChosen siteChosen;
-    private String[] webList= {"www.gymglish.com","www.DelavigneCorp.com","www.WorkSweetWork.com",
+    private String[] webList= {"www.GymGlish.com","www.DelavigneCorp.com","www.WorkSweetWork.com",
             "www.Frantastique.com","www.Anglais-Conjugaison.com","www.TheWordOfTheMonth.com",
             "www.RichMorning.com","www.Vatefaireconjuguer.com"};
 
